@@ -10,7 +10,8 @@ body {
 }
 
 .header {
-    width: 100%;
+    width: 100vw;
+    min-width: 840px;
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -22,7 +23,7 @@ body {
     margin-right: 15%;
 }
 
-.form form{
+.form form {
     display: flex;
     flex-direction: row;
     margin: 10px;
@@ -81,6 +82,7 @@ body {
     justify-content: space-between;
     margin-top: 60px;
     width: 100%;
+    min-width: 840px;
     height: 91%;
     background-color: #efefef;
     overflow: hidden;
@@ -96,7 +98,6 @@ body {
 .left p {
     font-size: 30px;
     font-weight: 600;
-    color: rgb(30, 54, 112);
 }
 
 .right {
@@ -119,7 +120,7 @@ body {
 
 .signup form {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     margin-left: 100px;
     gap: 17px;
 }
@@ -145,7 +146,7 @@ body {
     gap: 20px;
 }
 
-.details input{
+.details input {
     width: 287px;
     height: 30px;
     font-size: 17px;
@@ -178,7 +179,7 @@ body {
     flex-direction: row;
 }
 
-.birthday-and-why a{
+.birthday-and-why a {
     margin-left: 10px;
     font-size: 12px;
     text-decoration: none;
@@ -219,6 +220,7 @@ body {
 .signup form .celebrity a {
     text-decoration: underline;
 }
+
 
 @media screen and (max-width: 576px) {
     .desktop {
